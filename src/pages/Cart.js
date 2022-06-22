@@ -12,6 +12,7 @@ function Cart() {
         <CartItem key={item.id} item={item} />
     ))
     
+    
     function placeOrder() {
         setButtonText("Ordering...")
         setTimeout(() => {
